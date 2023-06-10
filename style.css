@@ -1,0 +1,370 @@
+/* ESTILOS DEL HEADER */
+.header {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", Arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #103d4a;
+}
+
+.head-logo {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.head-navegacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.lista-navegacion > li {
+  margin-bottom: 0.4rem;
+}
+
+.lista-navegacion {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.head-enlace {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
+/* ESTILOS DE LA LLAMADA A LA ACCION */
+
+.llamada {
+  padding: 2rem 0 2rem 0;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", Arial;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.llamada-titulo {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.llamada-texto {
+  width: 80%;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+.llamada-boton {
+  width: 85%;
+  padding: 1rem;
+  font-weight: bold;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+/* ESTILOS DE LA SECCION DESTACADOS-BLOG */
+
+.blog {
+  padding: 2rem 0 2rem 0;
+  background-color: #e0e3f6;
+  font-family: "Montserrat", Arial;
+}
+
+.titulo-blog {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: #4e4d4b;
+}
+
+.articulo-blog {
+  margin: 2rem 0 2rem 0;
+}
+
+.imagen-articulo {
+  max-width: 100%;
+}
+
+.titulo-articulo {
+  width: 90%;
+  margin: 1rem 0 0 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.blog-boton {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  padding: 1rem;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+/* ESTILOS SOBRE DIFERENCIADORES*/
+
+.diferenciadores {
+  font-family: "Montserrat", Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0 3rem 0;
+}
+
+.diferenciador {
+  width: 80%;
+  margin: 3rem 0 3rem 3rem;
+}
+
+.icono-diferenciador {
+  vertical-align: middle;
+}
+
+.titulo-diferenciador {
+  display: inline;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.texto-diferenciador {
+  width: 80%;
+  margin: 1rem 0 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+/* ESTILOS DE LA SECCION SOBRE NOSOTROS */
+
+.sobre-nosotros {
+  font-family: "Montserrat", Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-sobre-nosotros {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: #4e4d4b;
+}
+
+.texto-sobre-nosotros {
+  width: 90%;
+  margin: 1rem;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.marcas {
+  width: 100%;
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* ESTILOS DE LA SECCION PLANES */
+
+.planes {
+  margin: 3rem 0 3rem 0;
+  font-family: "Montserrat", Arial;
+  background-color: #f6f5f3;
+}
+
+.titulo-planes {
+  padding: 3rem;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #4e4d4b;
+}
+
+.planes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan {
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  background-color: white;
+  text-align: center;
+  width: 80%;
+}
+
+.titulo-plan {
+  padding: 1rem;
+  color: #035a76;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+}
+
+.precio {
+  margin: 1rem 0 0 0;
+  color: #035a76;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.caja-beneficios {
+  margin: 2rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.beneficio {
+  color: #4e4d4b;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.boton-plan {
+  display: inline-block;
+  margin: 2rem 0 0 0;
+  color: #035a76;
+  font-size: 1.5rem;
+  border: 1px solid #035a76;
+  border-radius: 5px;
+  padding: 0.5rem;
+  text-shadow: 1px 1px 2px #035a76;
+}
+
+.planes > article.plan:nth-child(3) .titulo-plan {
+  color: #690e8d;
+}
+
+.planes > article.plan:nth-child(3) .precio {
+  color: #690e8d;
+}
+
+.planes > article.plan:nth-child(3) .boton-plan {
+  color: #690e8d;
+  border: 1px solid #690e8d;
+  text-shadow: 1px 1px 2px #690e8d;
+}
+
+.planes > article.plan:nth-child(4) .titulo-plan {
+  color: #b00024;
+}
+
+.planes > article.plan:nth-child(4) .precio {
+  color: #b00024;
+}
+
+.planes > article.plan:nth-child(4) .boton-plan {
+  color: #b00024;
+  border: 1px solid #b00024;
+  text-shadow: 1px 1px 2px #b00024;
+}
+
+/* ESTILOS DE LA SECCION CONTACTO */
+
+.contacto {
+  font-family: "Montserrat", Arial;
+}
+
+.titulo-contacto {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #4e4d4b;
+}
+
+.texto-contacto {
+  font-size: 1.3rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.boton-contacto {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  padding: 1rem;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+/* ESTILOS DE LA SECCION INSTITUCIONAL */
+
+.institucional {
+  margin: 2rem 0 2rem 0;
+  font-family: "Montserrat", Arial;
+  text-align: center;
+}
+
+.titulo-institucional {
+  font-weight: bold;
+  margin: 2rem 0 2rem 0;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #4e4d4b;
+}
+
+.texto-institucional {
+  margin: 2rem 0 2rem 0;
+  font-size: 1.3rem;
+}
+
+.direccion-institucional {
+  margin: 2rem 0 2rem 0;
+  font-size: 1.5rem;
+}
+
+.institucional > p {
+  font-size: 1.3rem;
+}
+
+.enlace-institucional {
+  font-size: 1.3rem;
+  color: #0106ff;
+  text-decoration: underline;
+}
+
+.video-institucional {
+  margin-top: 2rem;
+  max-width: 100%;
+}
+
+/* ESTILOS DEL FOOTER */
+
+.footer {
+  padding: 2rem 0 2rem 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.footer-logo {
+  width: 60%;
+}
+
+.redes-sociales-footer > img {
+  margin: 1rem;
+}
