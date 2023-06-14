@@ -453,6 +453,7 @@ body {
 
   .llamada {
     background-image: url(img/bg-intro.jpg);
+    background-size: cover;
     gap: 3rem;
   }
 
@@ -536,8 +537,6 @@ body {
   .informacion-institucional {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 15rem;
   }
 
   .informacion-institucional,
@@ -545,7 +544,7 @@ body {
   .informacion-institucional > a {
     padding: 0;
     flex-grow: 3;
-    text-align: start;
+    text-align: center;
   }
 
   .video {
